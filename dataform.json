@@ -1,0 +1,8 @@
+{
+  "defaultSchema": "dataform",
+  "assertionSchema": "dataform_assertions",
+  "warehouse": "bigquery",
+  "defaultDatabase": "dyncloud-lab-20221201",
+  "defaultLocation": "asia-east1"
+}
+    
