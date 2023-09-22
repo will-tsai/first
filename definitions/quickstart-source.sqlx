@@ -17,3 +17,7 @@ UNION ALL
 SELECT
   "bananas" AS fruit,
   0 AS count
+UNION ALL
+SELECT
+  "grape" AS fruit,
+  2 AS count
