@@ -4,7 +4,8 @@ config {
 
 
 SELECT
-  `訂單編號`,
+--  `訂單編號`,
+  `會員編號`,
   SUM(`商品金額`) as `總金額`
 FROM ${ref("order")}
-GROUP BY `訂單編號`
+GROUP BY `會員編號`

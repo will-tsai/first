@@ -1,0 +1,16 @@
+config {
+  type: "view",
+}
+
+
+SELECT
+  `訂單編號`,
+  ${ref("order")}.`會員編號`,
+  `姓名`,
+  `商品類別`
+FROM ${ref("order")}
+JOIN ${ref("products")}
+ON ${ref("order")}.`商品`=${ref("products")}.`商品名稱`
+JOIN ${ref("member")}
+ON ${ref("order")}.`會員編號`=${ref("member")}.`會員編號`
+--GROUP BY `訂單編號`

@@ -1,0 +1,13 @@
+config {
+  type: "view",
+}
+
+
+SELECT
+  `會員編號`,
+  `姓名`,
+  `總金額`
+FROM ${ref("member")} 
+LEFT JOIN ${ref("order_total_price")}
+using (`會員編號`)
+ORDER BY `總金額` DESC

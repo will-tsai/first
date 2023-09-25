@@ -1,0 +1,28 @@
+config {
+  type: "table",
+}
+
+
+SELECT "優酪乳" AS `商品名稱`,"飲品" AS `商品類別`
+UNION ALL
+SELECT "甘藍" AS `商品名稱`,"蔬菜" AS `商品類別`
+UNION ALL
+SELECT "青花菜" AS `商品名稱`,"蔬菜" AS `商品類別`
+UNION ALL
+SELECT "豆腐" AS `商品名稱`,"豆製品" AS `商品類別`
+UNION ALL
+SELECT "衛生紙" AS `商品名稱`,"清潔" AS `商品類別`
+UNION ALL
+SELECT "蛋餃" AS `商品名稱`,"火鍋料" AS `商品類別`
+UNION ALL
+SELECT "豆皮" AS `商品名稱`,"豆製品" AS `商品類別`
+UNION ALL
+SELECT "香蕉" AS `商品名稱`,"水果" AS `商品類別`
+UNION ALL
+SELECT "牛奶" AS `商品名稱`,"飲品" AS `商品類別`
+UNION ALL
+SELECT "布丁" AS `商品名稱`,"點心" AS `商品類別`
+UNION ALL
+SELECT "菜瓜布" AS `商品名稱`,"清潔" AS `商品類別`
+UNION ALL
+SELECT "洗碗精" AS `商品名稱`,"清潔" AS `商品類別`
