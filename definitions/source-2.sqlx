@@ -24,4 +24,4 @@ SELECT
 UNION ALL
 SELECT
   "watermelon" AS fruit,
-  5 AS count
+  3 AS count

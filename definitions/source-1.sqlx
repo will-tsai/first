@@ -1,0 +1,25 @@
+
+config {
+  type: "view",
+}
+
+SELECT 1 as number,6 as two,"bananas" as fruit
+UNION ALL
+SELECT 2 as number,5 as two,"oranges" as fruit
+UNION ALL
+SELECT 3 as number,4 as two,"pears" as fruit
+UNION ALL
+SELECT 4 as number,3 as two,"apples" as fruit
+UNION ALL
+SELECT 5 as number,2 as two,"grape" as fruit
+UNION ALL
+SELECT 6 as number,1 as two,"watermelon" as fruit
+
+
+
+
+
+
+
+
+
