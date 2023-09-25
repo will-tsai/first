@@ -1,0 +1,15 @@
+config {
+  type: "view",
+}
+
+
+SELECT
+  `訂單編號`,
+  ${ref("order_class")}.`會員編號`,
+  ${ref("order_class")}.`姓名`,
+  ${ref("order_class")}.`類別`,
+  ${ref("financial_resources")}.`總金額`
+FROM ${ref("order_class")} 
+INNER JOIN ${ref("financial_resources")}
+ON ${ref("order_class")}.`會員編號`=${ref("financial_resources")}.`會員編號`
+ORDER BY `總金額` DESC
